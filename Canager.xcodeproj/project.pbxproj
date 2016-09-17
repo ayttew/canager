@@ -14,6 +14,8 @@
 		AAFD57391D8D9A370084216D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFD57371D8D9A370084216D /* LaunchScreen.storyboard */; };
 		AAFD57441D8D9A370084216D /* CanagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFD57431D8D9A370084216D /* CanagerTests.swift */; };
 		AAFD574F1D8D9A380084216D /* CanagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFD574E1D8D9A380084216D /* CanagerUITests.swift */; };
+		AAFD575D1D8DA2710084216D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AAFD575C1D8DA2700084216D /* LICENSE */; };
+		AAFD575F1D8DA29D0084216D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AAFD575E1D8DA29D0084216D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AAFD574A1D8D9A380084216D /* CanagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFD574E1D8D9A380084216D /* CanagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanagerUITests.swift; sourceTree = "<group>"; };
 		AAFD57501D8D9A380084216D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFD575C1D8DA2700084216D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AAFD575E1D8DA29D0084216D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		AAFD57221D8D9A370084216D = {
 			isa = PBXGroup;
 			children = (
+				AAFD575E1D8DA29D0084216D /* README.md */,
+				AAFD575C1D8DA2700084216D /* LICENSE */,
 				AAFD572D1D8D9A370084216D /* Canager */,
 				AAFD57421D8D9A370084216D /* CanagerTests */,
 				AAFD574D1D8D9A380084216D /* CanagerUITests */,
@@ -234,6 +240,7 @@
 			files = (
 				AAFD57391D8D9A370084216D /* LaunchScreen.storyboard in Resources */,
 				AAFD57361D8D9A370084216D /* Assets.xcassets in Resources */,
+				AAFD575D1D8DA2710084216D /* LICENSE in Resources */,
 				AAFD57341D8D9A370084216D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAFD575F1D8DA29D0084216D /* README.md in Sources */,
 				AAFD57311D8D9A370084216D /* ViewController.swift in Sources */,
 				AAFD572F1D8D9A370084216D /* AppDelegate.swift in Sources */,
 			);
@@ -503,6 +511,7 @@
 				AAFD57551D8D9A380084216D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAFD57561D8D9A380084216D /* Build configuration list for PBXNativeTarget "CanagerTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				AAFD57581D8D9A380084216D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAFD57591D8D9A380084216D /* Build configuration list for PBXNativeTarget "CanagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				AAFD575B1D8D9A380084216D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

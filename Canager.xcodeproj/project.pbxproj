@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAFD572F1D8D9A370084216D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFD572E1D8D9A370084216D /* AppDelegate.swift */; };
+		AAFD57311D8D9A370084216D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFD57301D8D9A370084216D /* ViewController.swift */; };
+		AAFD57341D8D9A370084216D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFD57321D8D9A370084216D /* Main.storyboard */; };
+		AAFD57361D8D9A370084216D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFD57351D8D9A370084216D /* Assets.xcassets */; };
+		AAFD57391D8D9A370084216D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFD57371D8D9A370084216D /* LaunchScreen.storyboard */; };
+		AAFD57441D8D9A370084216D /* CanagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFD57431D8D9A370084216D /* CanagerTests.swift */; };
+		AAFD574F1D8D9A380084216D /* CanagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFD574E1D8D9A380084216D /* CanagerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAFD57401D8D9A370084216D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFD57231D8D9A370084216D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFD572A1D8D9A370084216D;
+			remoteInfo = Canager;
+		};
+		AAFD574B1D8D9A380084216D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFD57231D8D9A370084216D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFD572A1D8D9A370084216D;
+			remoteInfo = Canager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAFD572B1D8D9A370084216D /* Canager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFD572E1D8D9A370084216D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAFD57301D8D9A370084216D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAFD57331D8D9A370084216D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAFD57351D8D9A370084216D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAFD57381D8D9A370084216D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAFD573A1D8D9A370084216D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFD573F1D8D9A370084216D /* CanagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFD57431D8D9A370084216D /* CanagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanagerTests.swift; sourceTree = "<group>"; };
+		AAFD57451D8D9A370084216D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFD574A1D8D9A380084216D /* CanagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFD574E1D8D9A380084216D /* CanagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanagerUITests.swift; sourceTree = "<group>"; };
+		AAFD57501D8D9A380084216D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAFD57281D8D9A370084216D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFD573C1D8D9A370084216D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFD57471D8D9A380084216D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAFD57221D8D9A370084216D = {
+			isa = PBXGroup;
+			children = (
+				AAFD572D1D8D9A370084216D /* Canager */,
+				AAFD57421D8D9A370084216D /* CanagerTests */,
+				AAFD574D1D8D9A380084216D /* CanagerUITests */,
+				AAFD572C1D8D9A370084216D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAFD572C1D8D9A370084216D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAFD572B1D8D9A370084216D /* Canager.app */,
+				AAFD573F1D8D9A370084216D /* CanagerTests.xctest */,
+				AAFD574A1D8D9A380084216D /* CanagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAFD572D1D8D9A370084216D /* Canager */ = {
+			isa = PBXGroup;
+			children = (
+				AAFD572E1D8D9A370084216D /* AppDelegate.swift */,
+				AAFD57301D8D9A370084216D /* ViewController.swift */,
+				AAFD57321D8D9A370084216D /* Main.storyboard */,
+				AAFD57351D8D9A370084216D /* Assets.xcassets */,
+				AAFD57371D8D9A370084216D /* LaunchScreen.storyboard */,
+				AAFD573A1D8D9A370084216D /* Info.plist */,
+			);
+			path = Canager;
+			sourceTree = "<group>";
+		};
+		AAFD57421D8D9A370084216D /* CanagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFD57431D8D9A370084216D /* CanagerTests.swift */,
+				AAFD57451D8D9A370084216D /* Info.plist */,
+			);
+			path = CanagerTests;
+			sourceTree = "<group>";
+		};
+		AAFD574D1D8D9A380084216D /* CanagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFD574E1D8D9A380084216D /* CanagerUITests.swift */,
+				AAFD57501D8D9A380084216D /* Info.plist */,
+			);
+			path = CanagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAFD572A1D8D9A370084216D /* Canager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFD57531D8D9A380084216D /* Build configuration list for PBXNativeTarget "Canager" */;
+			buildPhases = (
+				AAFD57271D8D9A370084216D /* Sources */,
+				AAFD57281D8D9A370084216D /* Frameworks */,
+				AAFD57291D8D9A370084216D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Canager;
+			productName = Canager;
+			productReference = AAFD572B1D8D9A370084216D /* Canager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAFD573E1D8D9A370084216D /* CanagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFD57561D8D9A380084216D /* Build configuration list for PBXNativeTarget "CanagerTests" */;
+			buildPhases = (
+				AAFD573B1D8D9A370084216D /* Sources */,
+				AAFD573C1D8D9A370084216D /* Frameworks */,
+				AAFD573D1D8D9A370084216D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFD57411D8D9A370084216D /* PBXTargetDependency */,
+			);
+			name = CanagerTests;
+			productName = CanagerTests;
+			productReference = AAFD573F1D8D9A370084216D /* CanagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAFD57491D8D9A380084216D /* CanagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFD57591D8D9A380084216D /* Build configuration list for PBXNativeTarget "CanagerUITests" */;
+			buildPhases = (
+				AAFD57461D8D9A380084216D /* Sources */,
+				AAFD57471D8D9A380084216D /* Frameworks */,
+				AAFD57481D8D9A380084216D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFD574C1D8D9A380084216D /* PBXTargetDependency */,
+			);
+			name = CanagerUITests;
+			productName = CanagerUITests;
+			productReference = AAFD574A1D8D9A380084216D /* CanagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAFD57231D8D9A370084216D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ayttew;
+				TargetAttributes = {
+					AAFD572A1D8D9A370084216D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					AAFD573E1D8D9A370084216D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AAFD572A1D8D9A370084216D;
+					};
+					AAFD57491D8D9A380084216D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AAFD572A1D8D9A370084216D;
+					};
+				};
+			};
+			buildConfigurationList = AAFD57261D8D9A370084216D /* Build configuration list for PBXProject "Canager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAFD57221D8D9A370084216D;
+			productRefGroup = AAFD572C1D8D9A370084216D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAFD572A1D8D9A370084216D /* Canager */,
+				AAFD573E1D8D9A370084216D /* CanagerTests */,
+				AAFD57491D8D9A380084216D /* CanagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAFD57291D8D9A370084216D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFD57391D8D9A370084216D /* LaunchScreen.storyboard in Resources */,
+				AAFD57361D8D9A370084216D /* Assets.xcassets in Resources */,
+				AAFD57341D8D9A370084216D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFD573D1D8D9A370084216D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFD57481D8D9A380084216D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAFD57271D8D9A370084216D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFD57311D8D9A370084216D /* ViewController.swift in Sources */,
+				AAFD572F1D8D9A370084216D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFD573B1D8D9A370084216D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFD57441D8D9A370084216D /* CanagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFD57461D8D9A380084216D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFD574F1D8D9A380084216D /* CanagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAFD57411D8D9A370084216D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFD572A1D8D9A370084216D /* Canager */;
+			targetProxy = AAFD57401D8D9A370084216D /* PBXContainerItemProxy */;
+		};
+		AAFD574C1D8D9A380084216D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFD572A1D8D9A370084216D /* Canager */;
+			targetProxy = AAFD574B1D8D9A380084216D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAFD57321D8D9A370084216D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFD57331D8D9A370084216D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAFD57371D8D9A370084216D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFD57381D8D9A370084216D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAFD57511D8D9A380084216D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAFD57521D8D9A380084216D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAFD57541D8D9A380084216D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Canager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ayttew.sh.Canager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AAFD57551D8D9A380084216D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Canager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ayttew.sh.Canager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AAFD57571D8D9A380084216D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CanagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ayttew.sh.CanagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Canager.app/Canager";
+			};
+			name = Debug;
+		};
+		AAFD57581D8D9A380084216D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CanagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ayttew.sh.CanagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Canager.app/Canager";
+			};
+			name = Release;
+		};
+		AAFD575A1D8D9A380084216D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CanagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ayttew.sh.CanagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Canager;
+			};
+			name = Debug;
+		};
+		AAFD575B1D8D9A380084216D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CanagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ayttew.sh.CanagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Canager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAFD57261D8D9A370084216D /* Build configuration list for PBXProject "Canager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFD57511D8D9A380084216D /* Debug */,
+				AAFD57521D8D9A380084216D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFD57531D8D9A380084216D /* Build configuration list for PBXNativeTarget "Canager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFD57541D8D9A380084216D /* Debug */,
+				AAFD57551D8D9A380084216D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAFD57561D8D9A380084216D /* Build configuration list for PBXNativeTarget "CanagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFD57571D8D9A380084216D /* Debug */,
+				AAFD57581D8D9A380084216D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAFD57591D8D9A380084216D /* Build configuration list for PBXNativeTarget "CanagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFD575A1D8D9A380084216D /* Debug */,
+				AAFD575B1D8D9A380084216D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAFD57231D8D9A370084216D /* Project object */;
+}
